@@ -11,6 +11,41 @@
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<style>
+			body {
+			  margin: 0;
+			  font-family: Arial, sans-serif;
+			  background-color: #f9f9f9;
+			}
+		
+			.container {
+			  max-width: 850px;
+			  margin: 60px auto;
+			  padding: 0 16px;
+			}
+		
+			.doc-wrapper {
+			  position: relative;
+			  width: 100%;
+			  padding-top: 130%; /* Aspect ratio for 8.5x11 inch page */
+			  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+			  border-radius: 10px;
+			  overflow: hidden;
+			  background: white;
+			}
+		
+			.doc-wrapper iframe {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;
+			  border: none;
+			}
+		
+			
+		  </style>
+		
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -79,8 +114,9 @@
 							<li>
 								<span>1</span><a href="#teampact">Teampact</a>
 								<ul>
-									<li><span>1.1</span><a target="_blank" href="#teampact">YeBoneer Teampact FAQs</a> </li>
-											
+									<li><span>1.1</span><a href="#teampact">YeBoneer Teampact FAQs</a></li>
+									<li><span>1.2</span><a href="#teampact">TalentLMS FAQs</a></li>
+									<li><span>1.3</span><a href="#teampact">YeBoneer Library Coding Session Log (Tangible)</a></li>	
 								</ul>
 							</li>
 							<li>
@@ -97,9 +133,22 @@
 					</div>
 					<h2 id="teampact">Teampact</h2>
 					<h3 id="teampact2">YeBoneer Teampact FAQs</h3>
-					<p>You find the YeBoneer Teampact FAQs document <a target="_blank" href="https://docs.google.com/document/d/1-2e8Wk-1t4IZWuodyrxJhn4IbGlU6daliaqAw8OmMtg/edit?pli=1&tab=t.0">here</a>.</p>
+					<p>You can find the YeBoneer Teampact FAQs document below.</p>
+					<div class="container">
+						
+						<div class="doc-wrapper">
+						  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSUPndXMNs-5EjgR3z1XFEZ5IojDAea3I_RUQtxue9OuZbgy4ZmG2ZgiK0nwoeUPYtVT5WR57O-885s/pub?embedded=true"></iframe>
+						</div>
+					  </div>
 					
+					<h3 id="">YeBoneer Library Coding Session Log</h3>
+					<p>This is an how-to video on how to log a coding session.</p>
 			
+					<video align="center"width="680" height="400" controls>
+						<source src="files/coding-session-log.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					  </video>
+
 					<h2>Sed rebum regione suscipit</h2>
 					<p>Ea duo atqui incorrupte, sed rebum regione suscipit ex, mea ex dicant percipit referrentur. Dicat luptatum constituam vix ut. His vide platonem omittantur id, vel quis vocent an. Ad pro inani zril omnesque. Mollis forensibus sea an, vim habeo adipisci contentiones ad, tale autem graecis ne sit.</p>
 					
